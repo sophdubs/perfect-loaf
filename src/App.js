@@ -1,24 +1,30 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Levain from "./components/Levain";
+import Autolyse from "./components/Autolyse";
+import Mix from "./components/Mix";
+import Bulk from "./components/Bulk";
+import Preshape from "./components/Preshape";
+import Shape from "./components/Shape";
+import Proof from "./components/Proof";
+import Preheat from "./components/Preheat";
+import Bake from "./components/Bake";
+import Enjoy from "./components/Enjoy";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>The perfect loaf</h1>
+      <Levain/>
+      <Autolyse/>
+      <Mix/>
+      <Bulk/>
+      <Preshape/>
+      <Shape/>
+      <Proof/>    
+      <Preheat/>  
+      <Bake/>
+      <Enjoy/>
     </div>
   );
 }
